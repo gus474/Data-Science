@@ -6,7 +6,7 @@ from sklearn import linear_model
 from sklearn.preprocessing import LabelEncoder,OneHotEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix,precision_score,auc,roc_auc_score,roc_curve,recall_score
-#Sklearning packages
+#Sklearning packages & Scikit learn
 #read the data
 dataset=pd.read_csv('C:\\Users\\User\Downloads\\datasets_606091_1086781_ML2.csv')
 dataset.head()

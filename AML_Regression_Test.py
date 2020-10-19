@@ -21,7 +21,7 @@ X=sample_dataframe.iloc[:,:-1].values
 y=sample_dataframe.iloc[:,7].values
 labelencoder=LabelEncoder()
 X[:,1]=labelencoder.fit_transform(X[:,1])
-
+#train 70% 
 #Split training and testing data
 X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.3,random_state=1)
 X_test,X_val,y_test,y_val=train_test_split(X_test,y_test,test_size=0.5,random_state=1)
